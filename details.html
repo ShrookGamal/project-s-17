@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0">
+<title>رونق | مقال - للتشطيب والترميم بجدة</title>
+<meta name="description" content="مقالات ونصائح مفيدة من شركة رونق المتخصصة في التشطيب والترميم والدهانات والتلييس بجدة.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{--primary-50:#FFF7ED;--primary-100:#FFEDD5;--primary-200:#FED7AA;--primary-300:#FDBA74;--primary-400:#FB923C;--primary-500:#F97316;--primary-600:#EA580C;--primary-700:#C2410C;--primary-800:#9A3412;--primary-900:#7C2D12;--accent-400:#FBBF24;--accent-500:#F59E0B;--accent-600:#D97706;--accent-700:#B45309;--dark-50:#F5F5F4;--dark-100:#E7E5E4;--dark-200:#D6D3D1;--dark-300:#A8A29E;--dark-400:#78716C;--dark-500:#57534E;--dark-600:#44403C;--dark-700:#292524;--dark-800:#1C1917;--dark-900:#0C0A09;--success-500:#22C55E;--success-700:#15803D}
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:hidden;-webkit-text-size-adjust:100%}
+body{font-family:'Cairo',sans-serif;overflow-x:hidden;background:#fff;color:var(--dark-700);line-height:1.6}
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:var(--dark-800)}
+::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--primary-600),var(--primary-700));border-radius:10px}
+a{text-decoration:none;color:inherit;cursor:pointer}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+
+.text-gradient{background:linear-gradient(135deg,var(--primary-500),var(--primary-600),var(--accent-600));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+.btn-primary{background:linear-gradient(135deg,var(--primary-500),var(--primary-600));color:#fff;padding:14px 32px;border-radius:12px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:8px;position:relative;overflow:hidden;transition:all .3s ease;font-size:inherit}
+.btn-primary::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);transition:left .5s ease}
+.btn-primary:hover::before{left:100%}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(234,88,12,.4);background:linear-gradient(135deg,var(--primary-600),var(--primary-700))}
+
+.btn-success{background:linear-gradient(135deg,var(--success-500),var(--success-700));color:#fff;padding:14px 32px;border-radius:12px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:all .3s ease;font-size:inherit;border:2px solid transparent}
+.btn-success:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(22,163,74,.4)}
+
+.blog-detail{min-height:100vh;background:#fff}
+.blog-detail-header{background:var(--dark-800);position:sticky;top:0;z-index:50;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+.blog-detail-header-inner{max-width:1024px;margin:0 auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+@media(min-width:768px){.blog-detail-header-inner{padding:16px 32px}}
+.blog-detail-back{display:inline-flex;align-items:center;gap:8px;color:#fff;font-weight:700;font-size:.875rem;background:rgba(255,255,255,.1);padding:8px 16px;border-radius:12px;transition:background .3s ease;flex-shrink:0}
+.blog-detail-back:hover{background:var(--primary-500)}
+.blog-detail-back svg{width:16px;height:16px}
+.blog-detail-header h1{color:#fff;font-weight:700;font-size:1.125rem;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right}
+
+.blog-detail-article{max-width:800px;margin:0 auto;padding:40px 20px}
+@media(min-width:768px){.blog-detail-article{padding:64px 32px}}
+.blog-detail-cat{display:inline-block;padding:6px 16px;border-radius:9999px;background:var(--primary-100);color:var(--primary-700);font-size:.875rem;font-weight:700;margin-bottom:16px}
+.blog-detail-article h2{font-size:clamp(1.75rem,4vw,2.5rem);font-weight:800;color:var(--dark-800);line-height:1.3;margin-bottom:16px}
+.blog-detail-meta{display:flex;align-items:center;gap:20px;font-size:.875rem;color:var(--dark-400);margin-bottom:32px;flex-wrap:wrap}
+.blog-detail-meta span{display:flex;align-items:center;gap:6px}
+.blog-detail-meta svg{width:16px;height:16px}
+.blog-detail-hero-img{border-radius:24px;overflow:hidden;margin-bottom:40px;box-shadow:0 10px 30px rgba(28,25,23,.1)}
+.blog-detail-hero-img img{width:100%;height:256px;object-fit:cover}
+@media(min-width:768px){.blog-detail-hero-img img{height:384px}}
+.blog-detail-excerpt{font-size:1.25rem;color:var(--dark-600);line-height:1.7;font-weight:500;margin-bottom:32px;padding-bottom:32px;border-bottom:2px solid var(--dark-100)}
+
+.blog-detail-content{line-height:2;font-size:1.0625rem;color:var(--dark-600)}
+.blog-detail-content h2{font-size:1.8rem;font-weight:800;color:var(--dark-800);margin-top:40px;margin-bottom:16px;position:relative;padding-right:16px}
+.blog-detail-content h2::before{content:'';position:absolute;right:0;top:8px;width:5px;height:80%;border-radius:10px;background:linear-gradient(180deg,var(--primary-500),var(--accent-600))}
+.blog-detail-content h3{font-size:1.4rem;font-weight:700;color:var(--dark-700);margin-top:32px;margin-bottom:12px}
+.blog-detail-content p{margin-bottom:20px}
+.blog-detail-content ul{margin-bottom:20px;padding-right:20px;list-style:none}
+.blog-detail-content ul li{margin-bottom:8px;position:relative;padding-right:20px}
+.blog-detail-content ul li::before{content:'';position:absolute;right:0;top:12px;width:8px;height:8px;border-radius:50%;background:var(--primary-500)}
+.blog-detail-content blockquote{border-right:4px solid var(--primary-500);padding:16px 24px;margin:24px 0;background:rgba(249,115,22,.05);border-radius:12px;font-style:italic;color:var(--dark-500)}
+
+.blog-detail-cta{margin-top:48px;padding:32px;border-radius:24px;background:linear-gradient(135deg,var(--primary-50),var(--accent-50));border:1px solid var(--primary-100)}
+.blog-detail-cta h3{font-size:1.5rem;font-weight:800;color:var(--dark-800);margin-bottom:16px}
+.blog-detail-cta p{color:var(--dark-600);line-height:1.7;margin-bottom:24px}
+.blog-detail-cta-buttons{display:flex;flex-direction:column;gap:16px}
+@media(min-width:640px){.blog-detail-cta-buttons{flex-direction:row}}
+
+.blog-detail-related{margin-top:48px;padding-top:32px;border-top:2px solid var(--dark-100)}
+.blog-detail-related h3{font-size:1.5rem;font-weight:800;color:var(--dark-800);margin-bottom:24px}
+.blog-detail-related-grid{display:grid;gap:24px}
+@media(min-width:768px){.blog-detail-related-grid{grid-template-columns:1fr 1fr}}
+.blog-detail-related-card{background:#fff;border-radius:16px;overflow:hidden;border:1px solid var(--dark-100);box-shadow:0 4px 12px rgba(28,25,23,.05);cursor:pointer;transition:all .4s ease}
+.blog-detail-related-card:hover{transform:translateY(-8px);box-shadow:0 20px 50px rgba(0,0,0,.15)}
+.blog-detail-related-card img{width:100%;height:160px;object-fit:cover;transition:transform .6s ease}
+.blog-detail-related-card:hover img{transform:scale(1.1)}
+.blog-detail-related-card .body{padding:20px}
+.blog-detail-related-card h4{font-size:1rem;font-weight:700;color:var(--dark-800);margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.blog-detail-related-card p{color:var(--dark-500);font-size:.875rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:12px}
+.blog-detail-related-card .more{display:inline-flex;align-items:center;gap:4px;color:var(--primary-600);font-weight:700;font-size:.875rem}
+.blog-detail-related-card .more svg{width:16px;height:16px}
+
+.blog-detail-back-link{margin-top:40px;text-align:center}
+.blog-detail-back-link a{display:inline-flex;align-items:center;gap:8px;color:var(--dark-500);font-weight:700;transition:color .3s ease}
+.blog-detail-back-link a:hover{color:var(--primary-600)}
+.blog-detail-back-link svg{width:20px;height:20px}
+
+.blog-detail-footer{background:var(--dark-900);padding:24px 0}
+.blog-detail-footer p{color:var(--dark-400);font-size:.875rem;text-align:center}
+.blog-detail-footer a{color:var(--primary-400);font-weight:700}
+
+.floating-btn{position:fixed;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:60;box-shadow:0 4px 20px rgba(0,0,0,.3);transition:all .3s ease}
+.floating-btn:hover{transform:scale(1.1)}
+.floating-btn svg{position:relative;z-index:10}
+.floating-call{bottom:90px;left:20px;background:linear-gradient(135deg,var(--primary-500),var(--primary-700));color:#fff}
+.floating-call svg{width:24px;height:24px}
+.floating-whatsapp{bottom:24px;left:20px;background:linear-gradient(135deg,var(--success-500),var(--success-700));color:#fff}
+.floating-whatsapp svg{width:26px;height:26px}
+</style>
+</head>
+<body>
+
+<div class="blog-detail">
+<header class="blog-detail-header">
+<div class="blog-detail-header-inner">
+<a href="index.html" class="blog-detail-back">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+العودة للرئيسية
+</a>
+<h1 id="blog-title">رونق</h1>
+</div>
+</header>
+
+<article class="blog-detail-article" id="blog-article">
+<div id="blog-content"></div>
+
+<div class="blog-detail-cta">
+<h3>هل تحتاج مساعدة في مشروعك؟</h3>
+<p>تواصل معنا الآن للحصول على استشارة مجانية وتقييم لمشروعك في جدة. فريقنا المتخصص جاهز لمساعدتك في الدهانات والتلييس والترميم والتشطيب.</p>
+<div class="blog-detail-cta-buttons">
+<a href="tel:0546344727" class="btn-primary" style="background:linear-gradient(135deg,var(--primary-700),var(--primary-600))">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+اتصل بنا الآن
+</a>
+<a href="https://wa.me/966546344727" target="_blank" rel="noopener noreferrer" class="btn-success">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+راسلنا على واتساب
+</a>
+</div>
+</div>
+
+<div class="blog-detail-related">
+<h3>مقالات أخرى</h3>
+<div class="blog-detail-related-grid" id="related-grid"></div>
+</div>
+
+<div class="blog-detail-back-link">
+<a href="index.html">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+العودة للرئيسية
+</a>
+</div>
+</article>
+
+<footer class="blog-detail-footer">
+<p>جميع الحقوق محفوظة © 2026 شركة رونق للتشطيب والترميم بجدة — تصميم وبرمجة <a href="https://www.facebook.com/share/17UzqgSwiu/" target="_blank" rel="noopener noreferrer">GMTWeb</a></p>
+</footer>
+</div>
+
+<a href="tel:0546344727" class="floating-btn floating-call" aria-label="اتصل بنا">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+</a>
+<a href="https://wa.me/966546344727" target="_blank" rel="noopener noreferrer" class="floating-btn floating-whatsapp" aria-label="راسلنا على واتساب">
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+const blogPosts = [
+  { id:'painting-trends', title:'أحدث اتجاهات الدهانات والتلييس لعام 2026', excerpt:'اكتشف أحدث صيحات الدهانات والديكورات الحائطية لعام 2026 من الألوان الباردة إلى التأثيرات ثلاثية الأبعاد وكيف تختار ما يناسب مساحتك.', category:'الدهانات والتلييس', date:'8 يناير 2026', readTime:'7 دقائق', image:'https://images.pexels.com/photos/6474133/pexels-photo-6474133.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' },
+  { id:'ceramic-guide', title:'دليلك الشامل لتركيب السيراميك والبورسلين', excerpt:'تعرف على كل ما تحتاج معرفته عن تركيب السيراميك والبورسلين من اختيار النوع المناسب إلى خطوات التركيب الصحيحة والمعالجة النهائية.', category:'تركيب السيراميك', date:'15 يناير 2026', readTime:'8 دقائق', image:'https://images.pexels.com/photos/11806490/pexels-photo-11806490.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' },
+  { id:'restoration-importance', title:'أهمية الترميم المبكر للمنشآت', excerpt:'تعرف على لماذا الترميم المبكر للمنشآت أمر حاسم وكيف يمكن للكشف ومعالجة المشاكل الإنشائية مبكراً أن يوفر عليك آلاف الريالات.', category:'الترميم والتجميل', date:'2 يناير 2026', readTime:'6 دقائق', image:'https://images.pexels.com/photos/5691550/pexels-photo-5691550.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' },
+];
+
+const blogContents = {
+  'painting-trends': `<h2>مقدمة عن عالم الدهانات الحديثة</h2><p>عالم الدهانات والديكورات الحائطية يشهد ثورة حقيقية في عام 2026، حيث لم تعد الدهانات مجرد طبقة لونية تغطي الحائط بل أصبحت وسيلة تعبير فني وتصميم داخلي تخلق أجواء وتأثيرات بصرية مذهلة. في جدة والمملكة العربية السعودية، يبحث العملاء عن دهانات تعكس شخصيتهم وتضيف لمسة عصرية لمساحاتهم.</p><p>في هذا المقال نستعرض أحدث اتجاهات الدهانات والديكورات الحائطية لعام 2026، من الألوان الرائجة إلى التقنيات الحديثة وكيفية اختيار ما يناسب مساحتك.</p><h2>الألوان الرائجة في 2026</h2><h3>الألوان الترابية الدافئة</h3><p>الألوان الترابية مثل البيج والبني الفاتح والطين المخبوز تعود بقوة في 2026. هذه الألوان تخلق دفئاً وانتماء للمساحة وتناسب خصوصية المنازل السعودية التي تبحث عن الأصالة مع لمسة عصرية.</p><h3>الأخضر الزيتوني والزمردي</h3><p>الأخضر بدرجاته الزيتونية والزمردي يتصدر قائمة الألوان الرائجة. يضفي حيوية وانتعاشاً على المساحات ويتناغم بشكل رائع مع الأثاث الخشبي والنباتات الداخلية.</p><h3>الأزرق الداكن والكحلي</h3><p>الأزرق الداكن والكحلي يحل محل الأسود التقليدي كخيار جريء للجدران الرئيسية. يضفي عمقاً ورقياً على المساحات ويتناسب مع الأثاث الذهبي والنحاسي.</p><h2>تقنيات التلييس والتنعيم</h2><p>قبل أي دهان، يجب أن يكون الجدار ملساً ومجهزاً بشكل احترافي. التلييس والتنعيم يضمنان أن الدهان النهائي يظهر بشكل مثالي دون عيوب. نستخدم مواد تلييس عالية الجودة تملأ الشقوق وتنعم السطح تماماً.</p><h2>تقنيات الدهانات الحديثة</h2><h3>الدهانات ثلاثية الأبعاد</h3><p>الدهانات ثلاثية الأبعاد تخلق تأثيرات بصرية مذهلة على الجدران. نستخدم تقنيات خاصة لإضافة عمق وملمس للحائط يتفاعل مع الإضاءة ويخلق ظلالاً وأبعاداً متغيرة على مدار اليوم.</p><h3>التدرجات اللونية</h3><p>التدرجات اللونية من لون إلى آخر على نفس الحائط تخلق تأثيراً فنياً ساحراً. نستخدم تقنية الرش الهوائي لدمج الألوان بسلاسة تامة دون خطوط فاصلة.</p><h2>اختيار الدهان المناسب لكل غرفة</h2><p>لصالات المعيشة الكبيرة ننصح بألوان دافئة تخلق جو ترحيبي. غرف النوم تحتاج ألواناً هادئة تساعد على الاسترخاء. الحمامات والمطابخ في جدة تتطلب دهانات مقاومة للرطوبة والعفن.</p><h2>نصائح لتجهيز الحوائط قبل الدهان</h2><ul><li>تنظيف الحائط تماماً من أي غبار أو شحم</li><li>معالجة أي تشققات أو ثقوب بمادة معالجة مناسبة</li><li>صنفرة الحائط لتنعيم السطح</li><li>وضع طبقة أساس (برايمر) لضمان ثبات اللون</li><li>انتظار جفاف طبقة الأساس تماماً قبل وضع الدهان النهائي</li></ul><h2>لماذا تختار شركة رونق للدهانات في جدة</h2><p>شركة رونق تقدم خدمات دهانات وتلييس احترافية في جدة بفريق متخصص يستخدم أحدث المعدات والتقنيات العالمية. نقدم ضماناً على جميع أعمالنا ونستخدم دهانات عالية الجودة من ماركات عالمية موثوقة. خبرتنا أكثر من 15 عاماً في دهانات الفلل والشقق والمنشآت التجارية في جدة تجعلنا الخيار الأمثل لتحقيق رؤيتك.</p><h2>الخلاصة</h2><p>عالم الدهانات في 2026 يقدم خيارات لا حصر لها لتحويل مساحتك. من الألوان الترابية الدافئة إلى التقنيات ثلاثية الأبعاد المذهلة، الاختيار الصحيح يعتمد على ذوقك واحتياجات مساحتك. استشر فريقنا المتخصص لمساعدتك في اختيار الحل المثالي.</p>`,
+  'ceramic-guide': `<h2>مقدمة عن عالم السيراميك والبورسلين</h2><p>يعد تركيب السيراميك والبورسلين من أهم مراحل تشطيب المباني والمنشآت السكنية والتجارية في جدة والمملكة العربية السعودية. فالأرضيات والجدران المكسوة بالسيراميك ليست مجرد عنصر جمالي بل هي استثمار طويل الأمد يحمي المبنى من الرطوبة والتآكل ويضيف قيمة جمالية واقتصادية كبيرة للعقار.</p><p>في هذا الدليل الشامل سنتناول كل ما يتعلق بتركيب السيراميك والبورسلين من اختيار النوع المناسب إلى خطوات التركيب الاحترافية والمعالجة النهائية، مع التركيز على المعايير التي تضمن نتائج تدوم لعقود طويلة دون تشققات أو تلف.</p><h2>الفرق بين السيراميك والبورسلين</h2><p>كثير من العملاء في جدة يخلطون بين السيراميك والبورسلين، لكن الفروق بينهما جوهرية وتؤثر على قرار الاختيار:</p><h3>السيراميك التقليدي</h3><p>السيراميك مصنوع من خليط الطين والرمل والمواد المعدنية ويتم حرقه في أفران درجات حرارتها عالية. يتميز بتنوع ألوانه وأشكاله وسعره الاقتصادي، لكنه أقل كثافة من البورسلين وأكثر عرضة لامتصاص الماء.</p><h3>البورسلين الفاخر</h3><p>البورسلين مصنوع من خليط أكثر نقاء ويتم حرقه في درجات حرارة أعلى بكثير، مما يجعله أكثر كثافة وأقل امتصاصاً للماء وأقوى بكثير من السيراميك العادي. البورسلين مثالي للأماكن ذات الكثافة العالية والمناطق المعرضة للرطوبة المستمرة.</p><h2>اختيار النوع المناسب لكل مساحة</h2><h3>أرضيات المعيشة والصالات</h3><p>لأرضيات غرف المعيشة والصالات الكبيرة في الفلل والشقق بجدة، ننصح باستخدام بورسلين كبير الحجم بقياس 60×60 أو 80×80 سم بمظهر رخامي أو خشبي حسب الديكور العام للمساحة.</p><h3>الحمامات والمطابخ</h3><p>الحمامات والمطابخ تتطلب سيراميك أو بورسلين بمعامل امتصاص منخفض ومقاومة عالية للانزلاق. ننصح باستخدام سيراميك بنسيج خشن نسبياً للأرضيات وسيراميك أملس للجدران.</p><h2>خطوات التركيب الاحترافية</h2><h3>1. تجهيز السطح</h3><p>تجهيز السطح هو أهم خطوة في عملية التركيب. يجب أن يكون السطح نظيفاً وجافاً ومستوياً تماماً. أي unevenness في السطح سيؤدي إلى تشققات لاحقة في السيراميك. نستخدم مادة لاتكسية لعزل الأرضية قبل التركيب لمنع الرطوبة من الصعود.</p><h3>2. اختيار المونة اللاصقة</h3><p>نستخدم مونة لاصقة عالية الجودة من نوع C2TE للأرضيات العادية و C2TES1 للأماكن المعرضة للحرارة العالية. المونة الجيدة تضمن ثبات السيراميك لعقود دون تفاوت أو انفصال.</p><h3>3. التركيب والتسوية</h3><p>نبدأ التركيب من المنتصف باتجاه الأطراف لضمان تناظر التوزيع. نستخدم فاصل بلاستيكي موحد لضمان استواء الفواصل. كل بلاطة يتم ضغطها وتسويتها مع المونة بمطرقة مطاطية.</p><h3>4. المعالجة والفواصل</h3><p>بعد جفاف المونة تماماً (24-48 ساعة) يتم ملء الفواصل بمادة معالجة مقاومة للرطوبة والعفن. نستخدم معالجة إيبوكسية للحمامات والمطابخ ومعالجة سيليكونية للمناطق الجافة.</p><h2>نصائح للحفاظ على السيراميك</h2><ul><li>تنظيف السيراميك دورياً بمواد متعادلة لا تحتوي على أحماض قوية</li><li>معالجة أي تشققات في الفواصل فوراً لمنع تسرب المياه</li><li>تجنب استخدام أدوات حادة قد تخدش السطح</li><li>وضع فواصل مطاطية تحت الأثاث الثقيل لمنع الخدوش</li><li>إعادة معالجة الفواصل كل 3-5 سنوات حسب الاستخدام</li></ul><h2>لماذا تختار شركة رونق لتركيب السيراميك في جدة</h2><p>نحن في شركة رونق نمتلك خبرة أكثر من 15 عاماً في تركيب السيراميك والبورسلين في جدة والمملكة العربية السعودية. فريقنا من الفنيين المدربين يستخدم أحدث المعدات والتقنيات العالمية لضمان نتائج مثالية تدوم لعقود. نقدم ضماناً على جميع أعمالنا ونستخدم فقط مواد عالية الجودة من موردين موثوقين.</p><h2>الخلاصة</h2><p>تركيب السيراميك والبورسلين استثمار طويل الأمد في منزلك أو منشأتك التجارية. الاختيار الصحيح للنوع والمادة اللاصقة والفني المحترف يضمن لك نتائج تدوم لعقود دون مشاكل. لا تهاون في أي من هذه العوامل فالتكلفة الأولية لتركيب سيراميك رديء ستضاعف مرتين عند إعادة التركيب.</p>`,
+  'restoration-importance': `<h2>مقدمة عن أهمية الترميم</h2><p>كثير من ملاك العقارات في جدة والمملكة العربية السعودية يتجاهلون علامات التحذير المبكرة للمشاكل الإنشائية حتى تتفاقم وتتطلب إصلاحات مكلفة. الترميم المبكر للمنشآت ليس مجرد إجراء تجميلي بل هو استثمار حاسم يحمي قيمة عقارك ويضمن سلامة شاغليه.</p><p>في هذا المقال نستعرض أهمية الترميم المبكر، العلامات التحذيرية التي يجب الانتباه لها، وكيف يمكن للكشف الدوري والمعالجة المبكرة أن توفر عليك آلاف الريالات.</p><h2>العلامات التحذيرية التي لا يجب تجاهلها</h2><h3>التشققات في الجدران</h3><p>ليست كل التشققات خطيرة، لكن يجب الانتباه لها. التشققات الأفقية عادة أقل خطورة من التشققات المائلة التي قد تشير إلى مشكلة في الأساسات. أي تشقق بعرض أكبر من 3 ملم يستلزم فحصاً فورياً من مختص.</p><h3>بقع الرطوبة والعفن</h3><p>بقع الرطوبة والعفن على الجدران والأسقف تشير إلى تسرب مياه أو مشكلة في العزل. تجاهل هذه العلامات يؤدي إلى تآكل الحديد الإنشائي وتلف الدهانات والسيراميك.</p><h3>هبوط الأرضيات</h3><p>إذا لاحظت أن أرضيات منزلك بدأت تتمايل أو تهبوط في مناطق معينة، فهذا قد يشير إلى مشكلة في الأساسات أو تآكل في الخرسانة. يجب معالجة هذا فوراً قبل تفاقم المشكلة.</p><h2>مراحل الترميم الاحترافية</h2><h3>المرحلة الأولى: الكشف والتقييم</h3><p>نبدأ بفحص شامل للمنشأة لتحديد جميع المشاكل الإنشائية والتجميلية. نستخدم معدات حديثة للكشف عن التشققات الخفية ومشاكل الأساسات.</p><h3>المرحلة الثانية: إزالة التلف</h3><p>إزالة جميع الأجزاء التالفة من دهانات وبلاط وجبس بورد متضرر. هذه المرحلة حاسمة لضمان أن الترميم يعالج المشكلة من جذورها وليس فقط الأعراض.</p><h3>المرحلة الثالثة: المعالجة الإنشائية</h3><p>معالجة التشققات الإنشائية بمواد حقن خاصة، تقوية الحديد الإنشائي، وإصلاح أي تآكل في الخرسانة. هذه المرحلة تضمن سلامة المبنى لسنوات قادمة.</p><h3>المرحلة الرابعة: العزل والمعالجة</h3><p>عزل الأسطح والجدران ضد الرطوبة والحرارة. هذه المرحلة تمنع تكرار المشاكل وتضمن حماية المبنى من العوامل البيئية.</p><h3>المرحلة الخامسة: التشطيب النهائي</h3><p>إعادة التشطيب النهائي من تلييس ودهانات وسيراميك وديكورات حسب رغبة العميل. هذه المرحلة تعيد للمبنى مظهره الجمالي وقيمته السوقية.</p><h2>فوائد الترميم المبكر</h2><ul><li>توفير مالي كبير - ترميم تشقق صغير اليوم يكلف بضع مئات من الريالات، بينما تجاهله قد يؤدي إلى إصلاحات إنشائية تكلف عشرات الآلاف</li><li>حماية قيمة العقار - العقارات المهملة تفقد من قيمتها السوقية الكثير</li><li>سلامة الشاغلين - المشاكل الإنشائية غير المعالجة قد تؤدي إلى انهيارات</li><li>راحة بال دائمة - الشعور بأن منزلك في حالة جيدة يمنح راحة بال لا تقدر بثمن</li></ul><h2>متى يجب الترميم</h2><p>ننصح بإجراء فحص دوري للمنشأة كل 3-5 سنوات، وفحص فوري عند ملاحظة أي من العلامات التحذيرية المذكورة. في جدة، المناخ الحار والرطوبة العالية يسرعان من تلف المباني، لذا ننصح بفحص دوري كل سنتين.</p><h2>لماذا تختار شركة رونق للترميم في جدة</h2><p>شركة رونق تقدم خدمات ترميم شاملة للمنشآت في جدة بفريق متخصص يمتلك خبرة أكثر من 15 عاماً. نستخدم أحدث المعدات والتقنيات للكشف الدقيق عن المشاكل ومعالجتها من جذورها. نقدم ضماناً على جميع أعمالنا ونضمن نتائج تدوم لعقود.</p><h2>الخلاصة</h2><p>الترميم المبكر للمنشآت استثمار حقيقي يحمي عقارك وعائلتك. لا تنتظر تفاقم المشاكل، فالكشف الدوري والمعالجة المبكرة توفر عليك الكثير وتضمن سلامة منشأتك لعقود قادمة.</p>`,
+};
+
+const params = new URLSearchParams(window.location.search);
+const postId = params.get('id') || 'painting-trends';
+const post = blogPosts.find(p => p.id === postId) || blogPosts[0];
+
+document.getElementById('blog-title').textContent = post.title;
+document.title = post.title + ' | رونق - للتشطيب والترميم بجدة';
+
+document.getElementById('blog-content').innerHTML = `
+<span class="blog-detail-cat">${post.category}</span>
+<h2>${post.title}</h2>
+<div class="blog-detail-meta">
+<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>${post.date}</span>
+<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>${post.readTime}</span>
+</div>
+<div class="blog-detail-hero-img"><img src="${post.image}" alt="${post.title}"></div>
+<p class="blog-detail-excerpt">${post.excerpt}</p>
+<div class="blog-detail-content">${blogContents[post.id] || blogContents['painting-trends']}</div>
+`;
+
+const relatedPosts = blogPosts.filter(p => p.id !== postId);
+document.getElementById('related-grid').innerHTML = relatedPosts.map(p => `
+<div class="blog-detail-related-card" onclick="window.location.href='details.html?id=${p.id}'">
+<img src="${p.image}" alt="${p.title}">
+<div class="body">
+<h4>${p.title}</h4>
+<p>${p.excerpt}</p>
+<span class="more">اقرا المزيد<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg></span>
+</div>
+</div>
+`).join('');
+
+window.scrollTo({ top: 0 });
+</script>
+</body>
+</html>
